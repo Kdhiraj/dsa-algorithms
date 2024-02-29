@@ -12,7 +12,7 @@ oRANge
 
 """
 
-def convert_word(word):
+def convert_word(word: str):
     converted_word = ''
     for char in word:
         if char.isupper():
