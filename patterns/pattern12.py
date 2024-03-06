@@ -10,16 +10,16 @@
 # one for space
 # one for print number in reverse order
 n = int(input("Enter the number of lines you want to print: "))
-space = 2 * (n-1)
-for i in range(1, n+1):
-    for j in range(1, i + 1):
-        print(j ,end="")
-    for k in range(space):
-        print(" ", end="")  
-    for l in range(i,0, -1):
-        print(l , end="")
-    space = space - 2
-    print()
+# space = 2 * (n-1) # for first row there are 6 spaces
+# for i in range(1, n+1):
+#     for j in range(1, i + 1):
+#         print(j ,end="")
+#     for k in range(space):
+#         print(" ", end="")  
+#     for l in range(i,0, -1):
+#         print(l , end="")
+#     space = space - 2 # space is decreasing by 2 at every row
+#     print()
 
 
 
