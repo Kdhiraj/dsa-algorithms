@@ -25,20 +25,23 @@ n = int(input("Enter the number of lines you want to print: "))
 
 # and for start we are increment by 2 and become odd number -> 2 *i - 1 run loop 
 
-for i in range(1, n + 1):
+for i in range(0, n):
     # loop for print space
-    for j in range(0, n - i):
+    for j in range(0, n - i - 1):
         print(" ", end="")
         
     # loop for print start
-    for j in range(2 * i - 1):
+    for j in range(2 * i + 1):
         print("*", end="")
+    # loop for print space    
+    for j in range(0, n - i - 1):
+        print(" ", end="")
     
     print()
     
     
 # using one loop
-for i in range(1, n + 1):
-    spaces = " " * (n - i) 
-    stars = "*" * (2 * i - 1)
+for i in range(0, n):
+    spaces = " " * (n - i- 1) 
+    stars = "*" * (2 * i + 1)
     print(spaces  +  stars)

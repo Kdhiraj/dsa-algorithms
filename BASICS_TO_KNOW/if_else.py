@@ -1,16 +1,16 @@
-"""
-Program to take input a word and convert the upperCase of word to lowerCase and loweCase to upperCase
 
-eg:
-input :
-OranGE
+# Program to take input a word and convert the upperCase of word to lowerCase and loweCase to upperCase
+
+# eg:
+# input :
+# OranGE
 
 
-output should be:
+# output should be:
 
-oRANge
+# oRANge
 
-"""
+
 
 def convert_word(word: str):
     converted_word = ''
