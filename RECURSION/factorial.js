@@ -7,7 +7,6 @@ function fact(n){
 
 
 //parameterized way
-
 function factUsingParameter(i,sum){
     if(i<1){
         console.log(sum);
